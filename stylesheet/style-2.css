@@ -1,0 +1,96 @@
+*{
+    margin: 0.1;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+.header{
+    box-shadow: 1vw 1vh 1.5vw #94afdec4;
+    width: 100%;
+    border-radius: 2vw;
+}
+
+.menu ul{
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-image: linear-gradient(#ffbf95, #ff9f7f);
+  border-radius: 2vw;
+}
+.menu ul img{
+    height: 55px;
+    width: 55px;
+    padding: 0;
+    margin: 1px 1px;
+    background-color: #d5f6ff;
+    float: left;
+    border-radius: 10vw;
+}
+.menu ul li {
+  float: right;
+}
+
+.menu ul li a {
+  margin: 1vw;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  transition-delay: 100ms;
+}
+
+.menu ul li a:hover {
+  background-image: linear-gradient(#cfff7f, #55ff6e, #3fffe0, #f6ffaa, #ffaacb);
+  color: #000000;
+  border-radius: 3vw;
+  transition-duration: 5s;
+}
+.content{
+    margin: 1vh 1vw;
+    height: 85%;
+    width: 93vw;
+}
+.body {
+    background-image: linear-gradient(#cfff7f, #55ff6e, #3fffe0, #f6ffaa, #ffb37f, #7facff);
+    box-shadow: 2vw 2vh 2vw #aed1c8dd;
+    padding: 1vh;
+    border-radius: 2vw;
+}
+.head-text{
+    text-align: center;
+    color: #ff0b00;
+    box-shadow: 1vw 1vh 1vw #8fd9acbe;
+    border: 1px double #bfffffe2;
+    border-radius: 2vw;
+    padding: 2vh;
+    background: #a3f7ede7;
+    margin: auto;
+}
+.clr{
+    text-align: center;
+    color: #2d4e6d;
+    text-shadow: 0.7vw 0.7vh 0.7vw #419c96f2;
+}
+.body .body-text{
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    color: #000000da;
+    margin: 3vh 1vw;
+}
+.body .p{
+    color: #616a6a;
+}
+ .footer-text{
+    text-shadow: 0.7vw 0.6vh 0.7vw #91d1dac4;
+    text-align: center;
+    border: .5px solid #15ff77;
+    margin: 5vw 5vh;
+    background: linear-gradient( #a1eaf4, #8df4b0, #a9f48d);
+    padding: 1vw;
+    border-radius: 3vw;
+    color: #ff5415e2;
+    box-shadow: 1.5vw 1vh 1.5vw #8deaf4cc;
+}
+    
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
